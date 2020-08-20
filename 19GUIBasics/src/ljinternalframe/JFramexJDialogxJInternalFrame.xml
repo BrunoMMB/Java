@@ -1,0 +1,27 @@
+http://www.guj.com.br/8721--jframe-jinternalframe-ou-jdialog
+http://www.guj.com.br/java/142747-jframe-jinternalframe-jdialog-ou-o-que
+http://www.guj.com.br/java/189036-jdialog-x-jinternalframe-x-jdesktop
+
+JFrame
+
+Costumo utilizar como janela principal do sistema, onde você pode acessar a 
+maioria dos recursos, como barras de menu, botões, etc...
+
+JInternalFrame
+
+Utilizo para os recursos que são acessados através da janela principal (JFrame).
+Por exemplo: Na janela principal há um botão chamado Cadastro que ao clicado,
+abre um formulário, este formulário deve ser um JInternalFrame.
+
+JDialog
+
+Deve ser utilizado em janelas que, devem ter sua ação concluída com prioridade 
+antes que o usuário prossiga com a utilização do sistema, ou seja, o usuário 
+raramente poderá fazer qualquer outra coisa (ou até mesmo fechar o sistema) 
+antes de terminar a ação proposta pelo JDialog. Exemplo: Confirmar o envio 
+de um formulário; Confirmar a remoção de informações ou até mesmo obter uma 
+informação crucial para a continuação de uma tarefa x.
+
+É possível que outros desenvolvedores tenham um ponto de vista diferente, até 
+porque minha explicação não tem propriedade oficial a não ser minha experiência
+com a linguagem, que até o momento, sempre atendeu minhas necessidades.
